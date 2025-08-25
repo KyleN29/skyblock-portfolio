@@ -1,0 +1,110 @@
+
+
+.marked_item {
+    background-color: #3535359e;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.marked_title_row {
+    margin-top: 10px;
+}
+
+.marked_title {
+   text-align: center;
+   color: white; 
+   font-size: 20px;
+   width: 250px;
+}
+
+.label_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    list-style: none;
+    width: 300px;
+}
+.label {
+    text-align: center;
+    color: #cccccc;
+}
+.important_label {
+    text-align: center;
+    color: #cccccc;
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.marked_price {
+    color: #f3f3f3;
+}
+.description_divider {
+    width: 250px;
+    margin-top: 10px;
+}
+.description {
+    height: 120px;
+    width: 95%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+    overflow: auto;
+}
+.edit_description {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: inherit; /* This should be the font of the surrounding text */
+    font-size: inherit;  /* Match the font size of the surrounding text */
+    height: 100%;
+    width: 95%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    box-sizing: border-box;
+    resize: none;        /* Disable resizing */
+    line-height: inherit;/* Match the line height of the surrounding text */
+    overflow: auto;      /* Optional: add scrollbar if content overflows */
+}
+.edit_button {
+    background-color: #3535359e; /* Match this with your component's background color */
+    color: white; /* This should be your component's text color */
+    border: 1px solid #ccc; /* Slight border, adjust the color as needed */
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-family: inherit; /* Match the font with your component's font */
+    font-size: 0.9em; /* Adjust the size as needed */
+    cursor: pointer;
+    transition: opacity .1s; /* Smooth transition for hover effect */
+    outline: none; /* Remove the default focus outline */
+    margin-top: 10px; /* Adjust spacing as needed */
+  }
+  
+  .edit_button:hover {
+    opacity: .8;
+  }
+  
+
+.bazaar_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 300px;
+    padding-bottom: 10px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bazaar_price {
+    color: #f3f3f3;
+}

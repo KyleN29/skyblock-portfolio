@@ -1,0 +1,199 @@
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.item {
+    margin-bottom: 20px;
+}
+.title-row {
+    background-color: rgba(53, 53, 53, 0.62);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+}
+.profit-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+  }
+  
+  .profit-title {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: normal;
+    background-color: rgba(53, 53, 53, 0.62);
+    width: 450px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    /* flex: 1; */
+    justify-content: center;
+  }
+.investment-title {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: normal;
+    background-color: rgba(53, 53, 53, 0.62);
+    width: 550px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    /* flex: 1; */
+    justify-content: center;
+}
+.profit-title-amount {
+    font-weight: normal
+}
+.info-row {
+    background-color: #666666;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 2px 5px #000000;
+}
+.item-image {
+    width: 60px;
+    -webkit-filter: drop-shadow(2px 2px 4px #222);
+    filter: drop-shadow(2px 2px 4px #222);
+}
+.title-row .title {
+    color: white;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
+    width: 270px;
+    text-align: center;
+    vertical-align: middle;
+}
+.info-row .info {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+.stat-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.quantity-block {
+    /* display: flex;
+    flex-direction: column; */
+}
+.block {
+    color: #d9d9d9;
+    text-align: center;
+}
+.money-up {
+    color: #00e000;
+    font-weight: bold;
+}
+.money-down {
+    color: #ff3939;
+    font-weight: bold;
+}
+.edit-container {
+    width: 350px;
+    height: 235px;
+    border-radius: 15px;
+    background-color: rgb(63, 63, 63);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.edit-quantity {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-top: 10px
+}
+.edit-input-row {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+    justify-content: center;
+}
+.edit-input {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(239, 239, 239);
+    padding-left: 10px;
+    width: 100px;
+    height: 20px;
+}
+.edit-input-header {
+    color: white;
+    font-size: 18px;
+    width: 120px;
+}
+.edit-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #666666;
+    color: white;
+    font-size: 18px;
+    transition: opacity .1s;
+}
+.edit-button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.x-image {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: opacity .15s;
+    user-select: none;
+}
+.x-image:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+.edit-image {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    transition: opacity .15s;
+    user-select: none;
+    filter: invert(59%) sepia(85%) saturate(1644%) hue-rotate(85deg) brightness(94%) contrast(91%);
+}
+.edit-image:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+.item {
+    position:relative;
+}
+.loader {
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #363636;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

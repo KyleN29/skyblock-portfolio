@@ -1,0 +1,132 @@
+.item-title, .add-item-title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.item-title-line {
+    width: 600px;
+    margin-bottom: 50px;
+}
+.item-info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.buy-info, .sell-info {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(53, 53, 53, 62);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buy-info-title, .buy-info-amount, .sell-info-title, .sell-info-amount {
+    color: white;
+    font-size: 32px;
+    margin-left: 20px;
+}
+
+
+.add-item-title {
+    /* margin-top: 100px; */
+    margin-bottom: 10px;
+}
+
+.add-item-container {
+    width: 600px;
+    height: 500px;
+    background-color: rgba(53, 53, 53, 62);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+.input-header {
+    color: white;
+    font-size: 25px;
+    margin-right: 40px;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+.add-button {
+    margin: 0 auto;
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4d4d4dff;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    transition: opacity .15s;
+}
+.add-input {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #efefefff;
+    padding-left: 10px;
+}
+.add-note-row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.add-note {
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+    background-color: #efefefff;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 200px;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+.add-button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.add-button:active {
+    opacity: .6;
+}
+.watchlist {
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: #4d4d4dff;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+
+    transition: opacity .15s;
+}
+.watchlist:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.watchlist:active {
+    opacity: .6;
+}
+.watchlist-container {
+    position: relative;
+}

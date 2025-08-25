@@ -1,0 +1,76 @@
+.login-container {
+    background-color: #353535ff;
+    margin: 0 auto;
+    /* height: 600px; */
+    width: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+.login-title {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.login-title-line {
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.email-login, .password-login {
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+}
+.login-button {
+    /* margin-top: 30px; */
+    margin-left: 50px;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    transition: opacity .1s;
+    
+}
+.login-button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.sign-up {
+    color: rgb(94, 118, 250);
+    margin-left: 55px;
+    margin-bottom: 10px;
+    transition: opacity .1s;
+}
+.sign-up:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.profit {
+    color: white;
+    margin-left: 50px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.money-up {
+    color: #00e000;
+    font-weight: bold;
+}
+.money-down {
+    color: #ff3939;
+    font-weight: bold;
+}
+.login-container .input-header {
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
